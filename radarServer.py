@@ -5,7 +5,7 @@ from flask import Flask
 app = Flask(__name__)
 
 GPIO.setmode(GPIO.BCM)
-###
+
 #############################################
 # 	SECTOR	TRIG	ECHO
 #	0	13	27
