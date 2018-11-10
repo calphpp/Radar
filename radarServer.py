@@ -55,7 +55,7 @@ def index():
 
     distance = round(distance, 2)
     
-    print("The answer is", distance)
+    print("Range = ", distance, "cm")
     
     return str(distance) 
 
